@@ -1,4 +1,4 @@
-const API_ROOT = "https://my-sample-vue-app.onrender.com/";
+const API_ROOT = "https://my-sample-vue-app.onrender.com";
  
  
 export async function createActivityAPI(data:any){
