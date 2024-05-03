@@ -4,7 +4,7 @@ const bodyParser = require('body-parser');
 require('dotenv').config() 
 const path = require('path');
 
-// Import routes
+// Import Routes
 const activityRouter = require('./routes/activityRoutes.js');
 const userRouter = require('./routes/userRoutes.js');
 const authRouter = require('./routes/authRoutes.js');
