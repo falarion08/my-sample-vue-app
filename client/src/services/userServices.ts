@@ -1,6 +1,6 @@
 import type { User } from "@/model/users";
 
-const API_ROOT = "http://localhost:3000";
+const API_ROOT = "https://my-vue-demo.onrender.com";
  
 
 export async function registerUser(data:any){
