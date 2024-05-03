@@ -4,7 +4,6 @@ const router = express.Router();
 
 
 router.post('/',(req,res)=>{
-    console.log('router3')
 
     const availableUesrs = users.getAllUsers();
     res.json({'message':'success', 'users':availableUesrs});
